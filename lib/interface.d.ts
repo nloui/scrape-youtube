@@ -7,6 +7,7 @@ export declare enum ResultType {
     live = "live"
 }
 export interface SearchOptions {
+    sp?: string;
     type?: ResultType;
     page?: number;
 }

@@ -1,5 +1,5 @@
 {
-  "name": "scrape-youtube",
+  "name": "@nloui/scrape-youtube",
   "version": "1.0.6",
   "description": "A lightning fast package to scrape YouTube search results. This was made for Discord Bots.",
   "main": "lib/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DrKain/scrape-youtube.git"
+    "url": "git+https://github.com/nloui/scrape-youtube.git"
   },
   "keywords": [
     "yt",
@@ -29,14 +29,16 @@
   "author": "Kain (ksir.pw)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DrKain/scrape-youtube/issues"
+    "url": "https://github.com/nloui/scrape-youtube/issues"
   },
-  "homepage": "https://github.com/DrKain/scrape-youtube#readme",
+  "homepage": "https://github.com/nloui/scrape-youtube#readme",
   "devDependencies": {
+    "@types/node": "^14.14.6",
     "prettier": "^2.0.5",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }

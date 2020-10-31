@@ -8,6 +8,7 @@ export enum ResultType {
 }
 
 export interface SearchOptions {
+    sp?: string;
     type?: ResultType;
     page?: number;
 }
