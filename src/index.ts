@@ -9,7 +9,7 @@ class Youtube {
         const url = new URL('/results', 'https://www.youtube.com');
         url.search = new URLSearchParams({
             search_query: query,
-            sp: ResultFilter[(options.type || 'video') as ResultType],
+            sp: options.sp || ResultFilter[(options.type || 'video') as ResultType],
             page: `${options.page ?? 0}`
         }).toString();
         return url.href;
